@@ -24,10 +24,7 @@ def pregunta_01():
     
     # Importe el transformador OrdinalEncoder
     from sklearn.preprocessing import OrdinalEncoder
-    # ordinalencoder=OrdinalEncoder(
-    #     categories='auto',
-    #     dtype=np.float64,
-    #     )
+
     # Transforme las variables de entrada usando fit_transform
     X = OrdinalEncoder().fit_transform(X)
     
