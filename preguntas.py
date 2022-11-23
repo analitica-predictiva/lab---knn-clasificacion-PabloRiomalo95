@@ -5,7 +5,6 @@ Clasificación usando k-NN
 
 """
 import pandas as pd
-import numpy as np
 
 
 def pregunta_01():
@@ -15,7 +14,7 @@ def pregunta_01():
     
     """
     # Lea el archivo de datos
-    df = pd.read_csv(fp+'house-votes-84.csv', sep=',')
+    df = pd.read_csv('house-votes-84.csv', sep=',')
     
     # Cree un vector con la variable de respuesta ('party')
     y = df['party']
