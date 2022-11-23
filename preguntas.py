@@ -6,7 +6,6 @@ Clasificación usando k-NN
 """
 import pandas as pd
 
-
 def pregunta_01():
     
     """
@@ -39,6 +38,7 @@ def pregunta_01():
 
     # Retorne el score del clasificador
     return knn.score(X,y)
+
 
 
 def pregunta_02():
@@ -79,7 +79,6 @@ def pregunta_02():
 
     # Retorne la matriz de confusión
     return confusion_matrix(y_true=y,y_pred=y_pred)
-
 
 # print(pregunta_01())
 # print(pregunta_02())
