@@ -79,3 +79,7 @@ def pregunta_02():
 
     # Retorne la matriz de confusión
     return confusion_matrix(y_true=y,y_pred=y_pred)
+
+
+# print(pregunta_01())
+# print(pregunta_02())
